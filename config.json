@@ -1,0 +1,10 @@
+{
+    "commands": {
+        "compile": "clang -fprofile-instr-generate -fcoverage-mapping foo.cc -o foo",
+        "run_inst_prog": "LLVM_PROFILE_FILE='foo.profraw' ./foo",
+        "cov_rep": "llvm-profdata merge -sparse foo.profraw -o foo.profdata",
+        "show_cov": "llvm-cov show ./foo -instr-profile=foo.profdata",
+        "gcov": "llvm-cov gcov test3.gcno",
+        "output": "llvm-cov export ./test3 -instr-profile=test3.profdata --format=text > output.json"
+    }
+}

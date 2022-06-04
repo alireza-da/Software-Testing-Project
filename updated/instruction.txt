@@ -1,0 +1,3 @@
+sudo apt-get install llvm llvm-dev clang
+sudo apt install graphviz
+clang++  -o RandomPath RandomPath.cpp `llvm-config --cxxflags` `llvm-config --ldflags` `llvm-config --libs` -lpthread -lncurses -ldl

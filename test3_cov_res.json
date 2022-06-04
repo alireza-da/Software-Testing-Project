@@ -1,0 +1,285 @@
+{
+    "data": [
+        {
+            "files": [
+                {
+                    "expansions": [],
+                    "filename": "/root/st_project/test3.c",
+                    "segments": [
+                        [
+                            2,
+                            1,
+                            1,
+                            true,
+                            true
+                        ],
+                        [
+                            4,
+                            21,
+                            11,
+                            true,
+                            true
+                        ],
+                        [
+                            4,
+                            27,
+                            1,
+                            true,
+                            false
+                        ],
+                        [
+                            4,
+                            29,
+                            10,
+                            true,
+                            true
+                        ],
+                        [
+                            4,
+                            32,
+                            1,
+                            true,
+                            false
+                        ],
+                        [
+                            4,
+                            33,
+                            10,
+                            true,
+                            false
+                        ],
+                        [
+                            5,
+                            5,
+                            10,
+                            true,
+                            true
+                        ],
+                        [
+                            6,
+                            13,
+                            10,
+                            true,
+                            true
+                        ],
+                        [
+                            6,
+                            18,
+                            10,
+                            true,
+                            false
+                        ],
+                        [
+                            6,
+                            19,
+                            0,
+                            true,
+                            false
+                        ],
+                        [
+                            7,
+                            9,
+                            0,
+                            true,
+                            true
+                        ],
+                        [
+                            9,
+                            10,
+                            10,
+                            true,
+                            false
+                        ],
+                        [
+                            11,
+                            9,
+                            10,
+                            true,
+                            true
+                        ],
+                        [
+                            13,
+                            10,
+                            10,
+                            true,
+                            false
+                        ],
+                        [
+                            14,
+                            6,
+                            1,
+                            true,
+                            false
+                        ],
+                        [
+                            16,
+                            2,
+                            0,
+                            false,
+                            false
+                        ]
+                    ],
+                    "summary": {
+                        "functions": {
+                            "count": 1,
+                            "covered": 1,
+                            "percent": 100
+                        },
+                        "instantiations": {
+                            "count": 1,
+                            "covered": 1,
+                            "percent": 100
+                        },
+                        "lines": {
+                            "count": 15,
+                            "covered": 12,
+                            "percent": 80
+                        },
+                        "regions": {
+                            "count": 7,
+                            "covered": 6,
+                            "notcovered": 1,
+                            "percent": 85.714285714285708
+                        }
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "count": 1,
+                    "filenames": [
+                        "/root/st_project/test3.c"
+                    ],
+                    "name": "main",
+                    "regions": [
+                        [
+                            2,
+                            1,
+                            16,
+                            2,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            21,
+                            4,
+                            27,
+                            11,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            29,
+                            4,
+                            32,
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            33,
+                            5,
+                            5,
+                            10,
+                            0,
+                            0,
+                            3
+                        ],
+                        [
+                            5,
+                            5,
+                            14,
+                            6,
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            6,
+                            13,
+                            6,
+                            18,
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            6,
+                            19,
+                            7,
+                            9,
+                            0,
+                            0,
+                            0,
+                            3
+                        ],
+                        [
+                            7,
+                            9,
+                            9,
+                            10,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            9,
+                            10,
+                            11,
+                            9,
+                            10,
+                            0,
+                            0,
+                            3
+                        ],
+                        [
+                            11,
+                            9,
+                            13,
+                            10,
+                            10,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "totals": {
+                "functions": {
+                    "count": 1,
+                    "covered": 1,
+                    "percent": 100
+                },
+                "instantiations": {
+                    "count": 1,
+                    "covered": 1,
+                    "percent": 100
+                },
+                "lines": {
+                    "count": 15,
+                    "covered": 12,
+                    "percent": 80
+                },
+                "regions": {
+                    "count": 7,
+                    "covered": 6,
+                    "notcovered": 1,
+                    "percent": 85.714285714285708
+                }
+            }
+        }
+    ],
+    "type": "llvm.coverage.json.export",
+    "version": "2.0.0"
+}
